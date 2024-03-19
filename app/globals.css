@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.video-responsive {
+  display: grid;
+  place-items: center;
+  /* 가로와 세로 방향 모두 가운데 정렬 */
+  height: 60vh;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 25px;
+}
