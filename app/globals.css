@@ -8,3 +8,11 @@
   font-family: 'Black Han Sans', sans-serif;
   font-size: 25px;
 }
+
+body {
+  margin: 0;
+}
+
+main {
+  margin-top: 160px;
+}

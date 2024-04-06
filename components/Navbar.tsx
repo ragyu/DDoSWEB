@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>
-        <Link href="#">
+        <Link href="/">
           <Image src="/DDoS.jpg" alt="로고" width={80} height={80} />
         </Link>
       </h1>
@@ -80,7 +80,7 @@ export default function Navbar() {
           로그인
         </Link>
         <b className={styles.b}>/</b>
-        <Link href="#" className={styles.p}>
+        <Link href="/mypage" className={styles.p}>
           회원가입
         </Link>
       </h3>
