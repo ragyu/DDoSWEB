@@ -1,13 +1,13 @@
-import React from 'react';
-import styles from './soga2.module.css';
-import Image from 'next/image';
+import React from "react";
+import styles from "./soga2.module.css";
+import Image from "next/image";
 
 const Soga2 = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          src="/pic.png"
+          src="/assets/pic.png"
           alt="hifive img"
           width={500}
           height={330}

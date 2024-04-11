@@ -1,6 +1,6 @@
-import styles from './Navbar.module.css'; // CSS 파일 import
-import Link from 'next/link';
-import Image from 'next/image';
+import styles from "./Navbar.module.css"; // CSS 파일 import
+import Link from "next/link";
+import Image from "next/image";
 // import { FaSearch } from 'react-icons/fa';
 
 export default function Navbar() {
@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>
         <Link href="/">
-          <Image src="/DDoS.jpg" alt="로고" width={80} height={80} />
+          <Image src="/assets/DDoS.jpg" alt="로고" width={80} height={80} />
         </Link>
       </h1>
 

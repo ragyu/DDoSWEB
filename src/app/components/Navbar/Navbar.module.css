@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Hahmlet-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2')
-    format('woff2');
+  font-family: "Hahmlet-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,7 @@
   );
   z-index: 1000;
   display: flex;
-  font-family: 'Hahmlet-Regular';
+  font-family: "Hahmlet-Regular";
   font-weight: 1000;
   font-size: 18px;
 }
@@ -115,7 +115,7 @@
 }
 
 .link::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
