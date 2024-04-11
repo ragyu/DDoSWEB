@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "../../styles/Traffic.css";
+import React, { useState } from 'react';
+import styles from './Traffic.module.css';
 
 const Graph = () => {
   const [timeInterval, setTimeInterval] = useState(5); // 시간 간격 (기본값: 5분)
@@ -57,8 +57,8 @@ const Graph = () => {
   return (
     <div>
       <div className={styles.graph}>
-        <h1>로그</h1>
-        <svg viewBox="-110 -10 500 130" style={{ fontSize: "5px" }}>
+        <h1>트래픽</h1>
+        <svg viewBox="-110 -10 500 130" style={{ fontSize: '5px' }}>
           {Array.from({ length: d }, (_, i) => (
             <React.Fragment key={`hline-${i}`}>
               <line
@@ -92,7 +92,7 @@ const Graph = () => {
                   y1={100 - randomData[i]}
                   x2={b * (i + 1)}
                   y2={100 - randomData[i + 1]}
-                  stroke="blue"
+                  stroke="red"
                   strokeWidth="0.8"
                 />
               )}
@@ -100,7 +100,7 @@ const Graph = () => {
                 cx={b * i}
                 cy={100 - randomData[i]} // 랜덤 데이터 값을 y 좌표로 사용
                 r="1.1"
-                fill="blue"
+                fill="red"
               />
             </>
           ))}
@@ -110,7 +110,7 @@ const Graph = () => {
               x={b * i}
               y="110"
               textAnchor="middle"
-              transform={b < 15 ? `rotate(-45, ${b * i}, 110)` : ""}
+              transform={b < 15 ? `rotate(-45, ${b * i}, 110)` : ''}
             >
               {time}
             </text>
