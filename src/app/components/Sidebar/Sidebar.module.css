@@ -2,7 +2,7 @@
   position: fixed;
   top: 50%;
   left: 0;
-  transition: transform 0.48s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .sidebar {

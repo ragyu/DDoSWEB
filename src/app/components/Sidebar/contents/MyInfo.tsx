@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "../../styles/Traffic.css";
+import React, { useState } from 'react';
+import styles from './Traffic.module.css';
 
 const Graph = () => {
   const [timeInterval, setTimeInterval] = useState(5); // 시간 간격 (기본값: 5분)
@@ -65,7 +65,7 @@ const Graph = () => {
     <div>
       <div className={styles.graph}>
         <h1>내정보</h1>
-        <svg viewBox="-110 -10 500 130" style={{ fontSize: "5px" }}>
+        <svg viewBox="-110 -10 500 130" style={{ fontSize: '5px' }}>
           {Array.from({ length: d }, (_, i) => (
             <React.Fragment key={`hline-${i}`}>
               <line
@@ -134,7 +134,7 @@ const Graph = () => {
               x={b * i}
               y="110"
               textAnchor="middle"
-              transform={b < 15 ? `rotate(-45, ${b * i}, 110)` : ""}
+              transform={b < 15 ? `rotate(-45, ${b * i}, 110)` : ''}
             >
               {time}
             </text>

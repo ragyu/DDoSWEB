@@ -2,9 +2,9 @@
 
 import React, { useState, FC, useMemo } from 'react';
 import styles from './Sidebar.module.css';
-import Traffic from './Traffic';
-import Log from './Log';
-import MyInfo from './MyInfo';
+import Traffic from './contents/Traffic';
+import Log from './contents/Log';
+import MyInfo from './contents/MyInfo';
 
 type ActiveComponent = 'Traffic' | 'Log' | 'MyInfo' | null;
 
